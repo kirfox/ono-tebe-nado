@@ -1,1 +1,114 @@
-/* место для вашего кода */
+.header {
+    margin-top: 92px;
+    height: 105px;
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+}
+
+.list{
+    display: flex;
+    column-gap: 32px;
+    list-style-type: circle;
+}
+
+.list li{
+    border-bottom: 1px solid black;
+}
+
+.list li:first-child{
+    border-bottom: 0;
+    list-style-type: none;
+}
+
+.logo{
+    height: 105px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    margin-left: 140px; 
+    line-height: 24.3px;
+    
+}
+
+.address a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+main{
+    margin-top: 96px;
+}
+.cover{
+    height: 757px;
+    background-image: url(../images/lotus-flower-new.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.6);
+}
+
+h1{
+    color: #FFF;
+    font-size: 100px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 30px;
+   
+}
+
+.aligned-text{
+    padding-top: 165px;
+    padding-left: 50px;
+}
+
+.letter-spacing-extended{
+    letter-spacing: 60px;
+}
+
+.aligned-text_center {
+    padding-top: 10px;
+    padding-left: 336px;
+}
+
+.aligned-text_right{
+    padding-top: 10px;
+    padding-left: 633px;
+}
+
+.cover__description{
+    padding-top: 120px;
+}
+
+.cover__description-text{
+    text-transform: uppercase;
+    font-size: 22px;
+    word-spacing: 18px;
+    padding-left: 82px;
+    color:#FFF;
+}
+
+.bet-button{
+    margin-left: 77px;
+    border: 1px solid #FFF; 
+    padding: 11px 31px;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: transparent;
+    color:#FFF;   
+}
