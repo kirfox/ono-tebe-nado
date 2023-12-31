@@ -13,17 +13,17 @@
     <header class="header">
       <nav>
         <ul class="list">
-          <li><a href="#">главная</a></li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li class="header__link header__link_active"><a href="#">главная</a></li>
+          <li class="header__link"><a href="#">посмотреть лоты</a></li>
+          <li class="header__link"><a href="#">об аукционе</a></li>
         </ul>
       </nav>
       <a href="#">
         <img class="logo" src="./images/logo-black.svg" alt="логотип" />
       </a>
       <address class="address">
-        <span><a href="tel:+99995555555">+9 999 555 5555</a></span>
-        <span><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></span>
+        <a href="tel:+99995555555"><span>+9 999 555 5555</span></a>
+        <a href="mailto:info@sobaka.ge"><span>info@sobaka.ge</span></a>
         <span>
           наб. Принсенграхт 263-265,<br />
           Амстердам
@@ -46,7 +46,7 @@
         </h1>
         <div class="cover__description">
           <span class="cover__description-text">Аукцион вещей, в которые никто не верил</span>
-          <button class="bet-button">Сделать ставку</button>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -106,9 +106,9 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img src="../images/logo-white.svg" alt="логотип" />
+          <img src="./images/logo-white.svg" alt="логотип" />
         </div>
-        <div class="about__title">Об аукционе</div>
+        <h4 class="about__title">Об аукционе</h4>
         <div class="about__text">
           <p>
             Здесь вы не встретите очередное пафосное собрание невероятно
@@ -139,14 +139,14 @@
       </address>
       <nav class="footer__menu">
         <ul>
-          <li><a href="#" class="footer__menu-link_active">главная</a></li>
+          <li><a href="#" class="footer__menu-link footer__menu-link_active">главная</a></li>
           <li><a href="#" class="footer__menu-link">посмотреть лоты</a></li>
           <li><a href="#" class="footer__menu-link">об аукционе</a></li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li>
-          <a href="#">
+          <a href="#" target="_blank">
             <img
             class="footer__social-icon"
             src="./images/yt.svg"
@@ -155,7 +155,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" target="_blank">
             <img
             class="footer__social-icon"
             src="./images/vk.svg"
@@ -164,7 +164,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#" target="_blank">
             <img
             class="footer__social-icon"
             src="./images/pinterest.svg"
